@@ -1,0 +1,30 @@
+Ödev-2
+Adım 1: Diziyi İkiye Böl:
+Dizi: [16, 21, 11, 8, 12, 22]
+İlk yarı: [16, 21, 11]
+İkinci yarı: [8, 12, 22]
+
+Adım 2:İlk Yarıyı Sırala:
+[16, 21, 11] dizisini ikiye böl:
+İlk yarı: [16]
+İkinci yarı: [21, 11]
+[21, 11] dizisini ikiye böl:
+İlk yarı: [21]
+İkinci yarı: [11]
+[21] ve [11] -> [11, 21]
+[16] ve [11, 21] -> [11, 16, 21]
+
+Adım 3: İkinci Yarıyı Sırala:
+[8, 12, 22] dizisini ikiye böl:
+İlk yarı: [8]
+İkinci yarı: [12, 22]
+[12, 22] dizisini ikiye böl:
+İlk yarı: [12]
+İkinci yarı: [22]
+[12] ve [22] -> [12, 22]
+[8] ve [12, 22] -> [8, 12, 22]
+
+Adım 4: İki yarıyı da birleştir:
+[11, 16, 21] ve [8, 12, 22] -> [8, 11, 12, 16, 21, 22]
+
+Sonuç: [8, 11, 12, 16, 21, 22]
